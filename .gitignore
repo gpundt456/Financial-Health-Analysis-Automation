@@ -1,0 +1,39 @@
+
+# Private configuration and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python temporary files
+__pycache__/
+*.pyc
+*.pyo
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Local logs and databases
+*.log
+*.db
+*.sqlite
+*.sqlite3
+
+# n8n local data
+.n8n/
+
+# Ollama models
+.ollama/
+models/
+
+# Temporary files
+tmp/
+temp/
+.cache/
+
+# Operating system files
+.DS_Store
+Thumbs.db
